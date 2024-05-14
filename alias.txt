@@ -1,0 +1,18 @@
+Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+Alias Table Syntax
+SELECT column_name(s)
+FROM table_name AS alias_name;
+
+
+example 
+
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+or 
+
+SELECT CustomerName AS Customer, ContactName AS "Contact Person"
+FROM Customers;

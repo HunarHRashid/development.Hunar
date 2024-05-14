@@ -1,0 +1,20 @@
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+
+
+example 
+
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+
+or 
+
+SELECT * FROM Customers
+ORDER BY Country;
+
+or 
+
+SELECT * FROM Customers
+ORDER BY Country DESC;
